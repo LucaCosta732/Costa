@@ -1,7 +1,7 @@
 
 /**
  * 
- * 	Classe Sommatoria
+ * 	<u>Classe Sommatoria</u>
  * 
  *  <u>4/5/2022</u>
  * 
@@ -22,11 +22,10 @@ public class CostaLucaClass {
 	
 	public int CostaMet(int f) {
 		
-		int r=1;
+		int r = 1;
 		for(int i=f; i<0; i++) {
 			
-			r=r*1;
-			
+			r = r + i;
 		}
 		
 		return r;
@@ -42,6 +41,8 @@ public class CostaLucaClass {
 		System.out.println(c.CostaMet(5));
 		System.out.println(c.CostaMet(6));
 		
+		
+		//Test A  f = 5 risAtt = 15 ott = 1  | f = 3 risAtt = 6 ott = 1 | f = 2 risAtt = 3 ott = 1
 		
 	}
 
